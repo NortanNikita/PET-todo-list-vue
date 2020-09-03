@@ -1,0 +1,40 @@
+.first-component{
+    width: 100%;
+    display: flex;
+}
+
+img{
+    width:100px;
+    height: 100px;
+    position: relative;
+    
+}
+.card{
+    border:1px solid red;
+    width: 100px;
+    margin :10px;
+    position: relative;
+}
+.delete-btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    background:red;
+    border:none;
+}
+.edit-btn{
+    position: absolute;
+    bottom: -18px;
+    right: -2px;
+    cursor: pointer;
+    background:blue;
+    border:none;
+    color:#fff;
+}
+.add-btn{
+    cursor: pointer;
+    background:green;
+    border:none;
+    color:#fff;
+}
